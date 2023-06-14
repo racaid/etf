@@ -24,4 +24,4 @@ jobs:
           distribution: 'full'
           version: ${{ matrix.racket-version }}
       - name: Run Tests
-        run: raco test main.rkt
+        run: make test
