@@ -23,5 +23,9 @@ jobs:
           architecture: 'x64'
           distribution: 'full'
           version: ${{ matrix.racket-version }}
+      - name: Setup Project
+        run: |
+          make link
+          make setup
       - name: Run Tests
         run: make test
