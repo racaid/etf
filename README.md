@@ -21,6 +21,6 @@ Apache License, Version 2.0
 [build]: https://github.com/racaid/etf/actions/workflows/cicd.yml
 [build-badge]: https://github.com/racaid/etf/actions/workflows/cicd.yml/badge.svg
 [package]: https://pkgd.racket-lang.org/pkgn/package/etf
-[package-badge]: https://img.shields.io/github/v/release/racaid/etf?display_name=tag
+[package-badge]: https://img.shields.io/github/v/release/racaid/etf?display_name=tag&v=1
 [docs]: https://docs.racket-lang.org/etf/index.html
 [docs-badge]: https://img.shields.io/badge/racket-docs-blue
