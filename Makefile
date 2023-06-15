@@ -16,9 +16,9 @@ link:
 unlink:
 	raco pkg remove $(PACKAGENAME)
 
-test: setup testonly
+init: link setup
 
-testonly:
+test:
 	raco test -p $(PACKAGENAME)
 
 htmldocs:
