@@ -6,9 +6,9 @@
 		     etf))
 
 @(define etf-evaluator
-   (make-base-eval '(require etf file/sha1)))
+   (make-base-eval '(require etf)))
 
-@title[#:version "5.0"]{etf}
+@title[#:version "0.0.1"]{etf}
 @author[(author+email "Duncan McGreggor" "oubiwann@gmail.com")]
 
 @section{Introduction}
