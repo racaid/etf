@@ -30,4 +30,6 @@ jobs:
       - name: Run Tests
         run: make test
       - name: Generate Docs
-        run: make standalone-docs
+        run: |
+          make standalone-docs
+          ls -al ./doc/etf

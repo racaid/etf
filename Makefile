@@ -1,7 +1,7 @@
 SHELL = /bin/bash
 PACKAGE_NAME = etf
 DEPS_FLAGS = --check-pkg-deps --unused-pkg-deps
-DOC_DIR = ./$(PACKAGE_NAME)/doc
+DOC_DIR = ./doc
 
 all: install setup
 
