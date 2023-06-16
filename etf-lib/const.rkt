@@ -1,3 +1,5 @@
 #lang racket/base
 
-(define placeholder "tbd")
+(provide (all-defined-out))
+
+(define undefined 'undefined)

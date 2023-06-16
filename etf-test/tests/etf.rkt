@@ -3,6 +3,7 @@
 (require rackunit
          rackunit/text-ui
          (prefix-in const: "const.rkt")
+         (prefix-in tag: "tag.rkt")
          (prefix-in util: "util.rkt"))
 
 (define tests
@@ -10,6 +11,7 @@
    "etf tests"
 
    const:tests
+   tag:tests
    util:tests))
 
 (module+ test

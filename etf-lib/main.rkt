@@ -6,4 +6,5 @@
 
 (require "const.rkt"
          "etf.rkt"
+         "tag.rkt"
          "util.rkt")

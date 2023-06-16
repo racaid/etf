@@ -4,14 +4,16 @@
 
 (require rackunit
          rackunit/text-ui
-         (prefix-in const: etf/const))
+         (prefix-in tag: etf/tag))
 
 (define tests
   (test-suite
-   "const tests"
+   "tag tests"
    (test-case
     "value checks"
-    (check-equal? const:undefined 'undefined))))
+    (check-equal? tag:version 131)
+    (check-equal? tag:atom-ext 100)
+    (check-equal? tag:list-ext 108))))
 
 (module+ main
   (void (run-tests tests)))
